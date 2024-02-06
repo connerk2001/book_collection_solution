@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Book.create!([
+    {title: "The Old Man and the Boy"},
+    {title: "The Old Man's Boy Grows Older"},
+    {title: "Steelheart"}, 
+    {title: "Firefight"},
+    {title: "The Hunger Games"}
+])
